@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+*.stackdump
+._*
+*.iml
+*.p12
+*.lnk
+.actionScriptProperties
+.flexLibProperties
+.project
+.settings/
+bin-debug/
+bin-release/
+html-template/
+.metadata/
+.idea/
+bin/
