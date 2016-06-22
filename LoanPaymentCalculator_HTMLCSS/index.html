@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Loan Payment Calculator</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="bin/js-debug/library/closure/goog/base.js"></script>
+	<script src="bin/js-debug/LoanPaymentCalculator-dependencies.js"></script>
+</head>
+<body>
+<form id="calculator-form">
+	<h1>Loan Payment Calculator</h1>
+	<div>
+		<label for="principal-input">Principal</label>
+		<input id="principal-input" type="number" value="200000" step="1000">
+	</div>
+	<div>
+		<label for="interest-input">Interest</label>
+		<input id="interest-input" type="number" value="6.0" step="0.1">
+	</div>
+	<div>
+		<label for="years-input">Years</label>
+		<input id="years-input" type="number" value="15" step="5" min="10" max="50">
+	</div>
+	<p><strong>Payment:</strong> <span id="result-text">1687.71</span> per month</p>
+	<button>Calculate New Payment</button>
+</form>
+<script>
+	new LoanPaymentCalculator();
+</script>
+</body>
+</html>
