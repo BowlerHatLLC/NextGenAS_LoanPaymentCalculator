@@ -1,0 +1,15 @@
+body
+{
+	padding: 10px;
+}
+
+#calculator-form
+{
+	margin: auto;
+}
+
+#calculator-form .mdl-card__title
+{
+	background: rgb(41, 121, 255);
+	color: #ffffff;
+}
