@@ -1,7 +1,5 @@
 package
 {
-	import flash.events.Event;
-
 	public class LoanPaymentCalculator
 	{
 		public function LoanPaymentCalculator()
