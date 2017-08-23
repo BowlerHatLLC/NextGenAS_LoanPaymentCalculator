@@ -24,10 +24,6 @@ In the final example, learn how easily we can take advantage of popular CSS libr
 
 ---
 
-Want to see more transpiled ActionScript examples like this one? Please [become a patron](http://patreon.com/josht) and support the next generation of ActionScript development on the web -- without a plugin!
-
-[NextGen ActionScript by Josh Tynjala on Patreon](http://patreon.com/josht).
-
 Special thanks to the following sponsors for their generous support:
 
 * [YETi CGI](http://yeticgi.com/)
